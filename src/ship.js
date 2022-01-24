@@ -29,7 +29,7 @@ const destroyerShip = new Ship('destroyer', 3);
 const submarineShip = new Ship('submarine', 3);
 const patrolShip = new Ship('patrol', 2);
 
-carrierShip.hit(3);
-battleShip.hit(4);
-carrierShip.isSunk();
-document.getElementById('content').innerHTML = `The ${carrierShip.ship} is ${carrierShip.length} spaces and`;
+// carrierShip.hit(3);
+// battleShip.hit(4);
+// carrierShip.isSunk();
+// document.getElementById('content').innerHTML = `The ${carrierShip.ship} is ${carrierShip.length} spaces and`;
