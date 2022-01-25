@@ -1,4 +1,4 @@
-const hits = [];
+export const hits = [];
 
 class Ship {
   constructor(ship, length) {
@@ -11,7 +11,7 @@ class Ship {
     // takes a number and then marks that position as ‘hit’
     this.index = index;
     hits.push(index);
-    console.log(hits);
+    // console.log(hits);
     // this.hit.push(index);
   }
 
